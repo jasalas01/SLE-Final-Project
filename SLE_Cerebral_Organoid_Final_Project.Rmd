@@ -3,25 +3,41 @@ title: "SLE_Final_Project"
 author: "Jessica Salas"
 date: "12/3/2018"
 output: html_document
+bibliography: references_SLE_Final_Paper.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(citr)
+library(wordcountaddin)
 ```
 
 # Introduction
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
 ## What is an Organoid?
 
+Organoids are stem-cell derived structures that are developed in order to study specific structures in vitro while preserving the physiology of in tact organs. Organoids provide the opportunity for modeling and studying normal development and disease development of specific structures. The use of organoids is heavily relied on for toxicology studies in the pharmaceutical industry as well as overall molecule characterization. 
+
+Organoids are 3D structures that have been demonstrated to properly exhibit key structural and functional properties of different organs. Organoids can be grown from two types of cells: pluripotent stem cells and/ or organ-restricted adult stem cells (aSCs). Pluripotent stem cells are embryonic stem (ES) cells and induced pluripotent stem (iPS) cells [@bredenoord2017human]. The stem cells are driven toward specific lineages through manipulation of growth factors and culture media. By controlling this cell differentiation, researchers can essentially control what organ is modeled [@bredenoord2017human]. A key aspect of organoid development is the 3D support matrix that allows for the correct spatial organization in the organoid. The end product is a completely in vitro model of an organ that correctly resembles the architecture and physiology of a working organ. 
+
 ## History of Organoid Development
+Organoid development for research purposes has been evolving since the early 1900s. It was in 1906 when researchers were looking for a way to replicate organogenesis- the process of organ development in humans or animals. Ross Harrison, the researcher credited with developing the technique, originally was looking to study the origin of nerve fibers [@simian2017organoids]. To study the nerve fibers he took a small fragment of embryo nerve cord and placed it on a coverslip in the lab. By inverting and sealing the coverslip on the hollow side, Harrison was able to observe adequate nerve growth on the coverslip and conduct his analysis [@simian2017organoids]. Harrison provided a starting point for other researchers looking to conduct similar experiments. Soon after Harrison, a slew of researchers were able to develop better and more efficient techniques to conduct research. By the 1920s, the scope of research shifted from organ development to embryo development and so more research methods were developed as well. Specifically, the development of tube cultures and a method known as "the watch glass method". By the 1950s, researchers had managed to culture other organs in vitro but with the given limitations of the methods used. Some of the limitations include the need for small, thin organ slices and preventing necrosis- the death of most or all cells of a tissue or organ within the sample dish [@simian2017organoids]. Fast forwarding to the 1980s, the research done in the early 1900s allowed for the advancements of 3D organoid development because now researchers had the conceptual and methodical background to focus in on tissue-specific function for in vitro experiments. The evidence of such advancements came in 1992 when researchers working with 3D models of human breast cells and tumor biopsied carcinoma cells were cultured in an in vitro, extracellular matrix that effectively mimicked the disease and verified that the culture system could replicate the growth, structural, and functional differences of these cells [@simian2017organoids]. In the oncology realm, this advancement was critical to begin understanding the epidemiology of breast cancer. 
+
+The first brain organoid was successfully developed in 2013 by a research group based in the UK [@lancaster2013cerebral]. Much of the process to develop a brain organoid is similar to developing other types of organoids except that each step is highly specialized for neuronal formation. The cerebral organoid successfully modeled the different interdependent regions of the brain as well as mature populations of cortical neuron subtypes [@lancaster2013cerebral]. 
+
 
 # Legal Implications
 # Social Implications
+The development of cerebral organoids can greatly contribute to the research currently being conducted for the cure of neurological disease and disorders. Research in the neuroscience field is by no means lagging, but what is lagging is a viable way to test new therapeutics to ensure their approval by the FDA. To put it in perspective, there are no drugs or treatments currently approved for neurodegenerative disease on the market today in 2018 [@hung2017drug]. With that said, there are many treatments for the **symptoms** of neurogenerative diseases but none of these drugs treat the underlying pathology of the diseases.
+
+In the research being done today, drugs that are developed are first tested *in vitro* in cellular assays before moving on to extensive *in vivo* testing in animals. Having worked firsthand in the industry, the tremendous amount of animal testing that is conducted is quite upsetting. What is even more upsetting is the fact that the animal studies that are conducted are mostly arbitrary to the end result of the drug's activity because the cerebral systems are so different from those of humans. In 2009, 1,131,076 animals were tested on for pharmaceutical purposes. The result was 19 newly approved therapies by the FDA- a typical approval rate for a given year [@hughes20102009]. The typical timeline for neurological drug testing is similar to that of other types of drugs but with a much lower, almost nonexistent, approval track record. The cause of such negative clinical trials could be contributed to a variety of factors but the most omportant one being the lack of viable testing. Testing these neurological drugs on rodents and later on in monkeys is costly and relatively slow to what could be tested on using cerebral organoids. Although it does take time to generate the organoid in the lab, the turn around time could be much quicker and without the need of essentially blindly testing on unrelated organisms. 
+
+Cerebral organoids can positively contribute to the production of drugs to treat neurological disorders in other important aspect as well- cost. It is no secret the cost to produce a drug that is FDA- approved is etremely expensive. In fact, the average cost to produce a drug today is $2.6B. This figure is up from $802M in 2003 [@moore2018estimated]. This figure represents the average cost of preclinical and clinical research and development required for producing **one** drug. If there is a way we could reduce the cost to companies, organoids could be a viable option. Since cerebral organoids would essentially mimic the brains of patients and healthy subjects, maybe this could contrbute to smaller clinical trial groups and therefore, a lower development cost overall. Taking a step back, cerebral organoid could be done in the early stages of pre-clinical research as a replacement for animal studies to reduce costs at this stage as well. 
+
 # Ethical Implications
 ## Cultural Relativism
 ## Ethical Egoism

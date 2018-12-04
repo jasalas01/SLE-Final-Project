@@ -2,7 +2,9 @@
 title: "SLE_Final_Project"
 author: "Jessica Salas"
 date: "12/3/2018"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 bibliography: references_SLE_Final_Paper.bib
 ---
 
@@ -52,8 +54,10 @@ Although consciousness has not yet been detected in the cerebral models, scienti
 ## Cultural Relativism
 As mentioned above, there is a great need for developing new ways to study diseases- specifically neurological diseases. Cerebral organoids could provide a the missing piece necessary to model diseases and treat them accordingly. As the theory of Cultural Relativism is defined as "Right and wrong rests with the society's moral guidelines", it is important to consider the society at hand. Generally speaking, the Western Society is much more open to new types of research especially in the realm of medical research. Looking through the lens of Cultural Relativism, it is clear why the science community is actively pursuing the advancement of such technology. Experimentation is the basis for innovation and these innovations are extremely important when looking at new ways to treat diseases. 
 
-The downside to the possible generation and use of cerebral organoids is worrysome to think about because the overall goals of the researchers conducting studies might not be clearly defined. A relevant example that we covered in class is when Apple donated laptops to under-served schools with the intention that they would become Apple customers in the future. Similar to the Apple employees in this case, scientists could have different intentions. Let's say that a cerebral organoid is produced from a a patient with the understanding that it will be used to study the patient's disease status. While developing this organoid, researchers use the organoid to model other forms of the disease and gather the data for studies in the future. Furthermore, scientists could be generating these organoids for personal gain and not solely to contribute to biomedical research.  
+The downside to the possible generation and use of cerebral organoids is worrysome to think about because the overall goals of the researchers conducting studies might not be clearly defined. A relevant example that we covered in class is when Apple donated laptops to under-served schools with the intention that they would become Apple customers in the future. Similar to the Apple employees in this case, scientists could have different intentions. Let's say that a cerebral organoid is produced from a a patient with the understanding that it will be used to study the patient's disease status. While developing this organoid, researchers use the organoid to model other forms of the disease and gather the data for studies in the future. Furthermore, scientists could be generating these organoids for personal gain and not solely to contribute to biomedical research. 
+
 ## Ethical Egoism
+In the scope of Ethical Egoism, an action is considered good if it benefits your neighbor but does not negatively harm you in the process. This can be summarized not as the "Golden Rule", but instead as the "Silver Rule". According to the "Silver Rule", it is better to let people take care of themselves because essentially, everyone knows what is best for themselves but not for others. Through the lens of ethical egoism, it is morally right that scientists and researchers can perform the necessary research because that is what is best for the individuals conducting the studies. The ethical egoism lens does not take into consideration what is best for the patients involved in the study and their well-being. This highlights an important caveat of ethical egoism and for this reason there are many people who see cerebral organoid research as a threatening development. Since ethical egoism promotes more of a "Me first" attitude, many people outside of the research realm could see this as an area of potential debate in the future. 
 ## Virtue Ethics
 
 You can also embed plots, for example:
